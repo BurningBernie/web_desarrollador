@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+    color:black;
+}
+
+#parrafo_unico {
+    color: goldenrod;
+    background-color: white;
+}
+
+p, span{
+    color: rebeccapurple;
+    background-color: orangered;
+    width: 300px;
+}
+h1{
+    color: goldenrod;
+    width: 500px;
+}
+
+/*comentario en css*/ 
+
+h2{
+    padding: 8px;
+    margin: 1cm;
+    border: 11px solid black;
+    color:black;
+}
+
+.clase {
+    color: blue;
+    background-color: lightpink;
+
+}
+
+/* w3school.com*/
+/*ver google fonts, ahi están las tipografias*/
