@@ -33,5 +33,14 @@ h2{
 
 }
 
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+    }
+    p{
+        color: black;
+    }
+}
+
 /* w3school.com*/
 /*ver google fonts, ahi están las tipografias*/
