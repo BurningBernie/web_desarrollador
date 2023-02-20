@@ -1,53 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto final</title>
     <link rel="stylesheet" href="css.css">
-    <link rel="icon" type="image/x-icon" href="https://www.w3schools.com/favicon.ico">
+    <link rel="icon" type="image/x-icon"
+        href="https://static.messi.com/wp-content/uploads/2019/10/cropped-logo--32x32.png">
 </head>
 
 
 <body>
     <div class="cabecera">
-        <img id="imagenCara" alt="no cargó imagen persona">
-        <img src="https://picsum.photos/1000/100" alt="no cargó imagen horizontal">
+        <div style="margin: 0%;">
+            <img id="imagenHorizontal" src="https://picsum.photos/750/100" alt="no cargó imagen horizontal">
+            <img id="imagenCara" alt="no cargó imagen persona">
+        </div>
         <p></p>
-        <a class="cabeceraA" id="nombre"></a>
-        <a class="cabeceraA" id="apellido"></a>
+        <a class="cabeceraA" style="margin: 0% 1% 0% 0%;" id="nombre"></a>
+        <a class="cabeceraA" style="margin: 0% 2% 0% 0%;" id="apellido"></a>
         <a class="cabeceraA" id="edad"></a>
     </div>
-
+    <br>
     <div class="cuello">
-        <button class="botonCuello">Breve descripción</button>
-        <button class="botonCuello">Datos personales</button>
-        <button class="botonCuello">Metas Laborales</button>
-        <a id="des"></a>
-        <a id="per"></a>
-        <a id="lab"></a>
+        <div class="contenedorBoton">
+            <button class="botonCuello" id="breve">Breve descripción</button>
+            <button class="botonCuello" id="datos">Datos personales</button>
+            <button class="botonCuello" id="meta">Metas Laborales</button>
+        </div>
+        <div class="contenedorDescrip">
+            <p class="descripcion" id="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, voluptatibus
+                est laudantium in
+                animi distinctio nisi quas, rerum deserunt corrupti sunt voluptatem, natus vitae id. Laborum libero
+                nesciunt culpa aspernatur!</p>
+            <p class="descripcion" style="text-align: right;" id="per"></p>
+            <p class="descripcion" id="lab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aut illum modi
+                ducimus voluptas
+                quae, omnis maiores officiis. Odio sequi obcaecati veniam eum rerum voluptatem officia, eveniet laborum
+                qui quae?</p>
+        </div>
+    </div>
+    <br>
+    <div class="cuerpo">
+        <button class="botonCuerpo" id="expBoton">Experiencia</button>
+        <button class="botonCuerpo" id="eduBoton">Educación</button>
+        <button class="botonCuerpo" id="vidBoton">Vida Personal</button>
+
     </div>
 
-    <div class="cuerpo">
-        <button class="botonCuerpo">Experiencia</button>
-        <button class="botonCuerpo">Educación</button>
-        <button class="botonCuerpo">Vida Personal</button>
-        <a id="exp"></a>
-        <a id="edu"></a>
-        <a id="vid"></a>
+    <div class="piernas">
+        <a class="descripcion" id="exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molestiae vitae
+            tempore iusto
+            voluptate consectetur necessitatibus sed numquam error adipisci? Suscipit magnam labore nisi obcaecati
+            perspiciatis reprehenderit architecto distinctio dolorem? Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Rem corrupti deserunt adipisci, labore magni odit itaque cumque hic repellendus commodi
+            repudiandae dignissimos molestias ducimus eum inventore libero quia fugit natus.</a>
+        <a class="descripcion" id="edu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatem sit
+            tempore, excepturi et labore facilis dolorum molestias maiores, perferendis molestiae sed minima?
+            Accusantium mollitia nam quis
+            doloribus dolores iusto? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quidem id quos,
+            impedit explicabo quaerat et, incidunt labore corrupti consectetur eveniet aut qui eligendi ratione vel
+            voluptates reiciendis voluptatum laborum.
+            Nihil, temporibus. Suscipit asperiores eius aut quas unde nam corporis totam nihil. Exercitationem quidem
+            repellendus provident labore, quod architecto voluptatum dolores excepturi eum quis accusantium ex
+            similique, iusto, recusandae sed?
+            Assumenda similique voluptates doloremque incidunt cupiditate, architecto, molestiae quidem, officia
+            quibusdam harum veniam nam ratione illum. Quaerat porro ullam, accusantium omnis mollitia repellendus
+            nostrum laudantium. Minus dolore commodi adipisci placeat!
+            Incidunt explicabo ratione distinctio velit facilis, laudantium earum esse ducimus temporibus expedita quo
+            possimus alias maxime. Eos adipisci nemo autem perferendis, saepe, nesciunt ullam accusamus vel eius est
+            voluptas similique!
+            Sunt obcaecati quam earum laudantium accusamus quaerat expedita labore esse possimus est veniam, suscipit
+            maxime officia sint perferendis. Odio, enim aliquam similique voluptas laboriosam dolor hic pariatur nisi
+            harum consectetur.</a>
+        <a class="descripcion" style="display: inline;" id="vid">Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Quas deserunt dicta,
+            laboriosam aperiam iure quae, corporis consequatur obcaecati, odit nulla animi quibusdam? Explicabo harum
+            quaerat accusamus
+            accusantium quae eius consectetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque
+            voluptatibus inventore. Qui dolor iusto quas maxime repudiandae quisquam commodi ad distinctio minus fugit!
+            Maiores quisquam tenetur sequi ipsam corporis!
+            Accusamus eligendi nemo voluptatem. Repudiandae aut enim modi commodi eveniet ea hic tenetur dolor officiis
+            temporibus amet necessitatibus corrupti quo sequi id ipsa eum ipsum, suscipit natus? Sequi, repudiandae
+            quia?</a>
     </div>
 
     <div class="pie">
         <br>
-        <strong>Diseñado por Lic. Ruiz Esquide Bernardo</strong> 
+        <img style="width: 20px; height: 20px;margin: 0%; "
+            src="https://static.messi.com/wp-content/uploads/2019/10/cropped-logo--32x32.png" alt="icono de messi">
+        <strong>Diseñado por Lic. Ruiz Esquide Bernardo</strong>
+        <img style="width: 20px; height: 20px;margin: 0%; "
+            src="https://static.messi.com/wp-content/uploads/2019/10/cropped-logo--32x32.png" alt="icono de messi">
         <br>
-       <a href="https://github.com/BurningBernie"> Github</a>
-       <a >  /  </a>
-        <a href="www.linkedin.com/in/bernardo-ruizesquide">LinkedIn</a>
+        <strong>+54 011 5849 5870</strong>
+        <br>
+        <a style="margin: 0% 2% 0% 0%;" href="https://github.com/BurningBernie"> Github</a>
+        <a style="margin: 0%;"> / </a>
+        <a style="margin: 0% 0% 0% 2%;" href="https://linkedin.com/in/bernardo-ruizesquide">LinkedIn</a>
+        <br>
+        <br>
     </div>
+    <br>
+
 
 
     <script src="js.js"></script>
 </body>
+
 </html>
